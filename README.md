@@ -1,4 +1,4 @@
-## Hi, I’m Ivan Borakove
+## Hi, I’m Ivan Borakove...
 
 <div align="left">
   <a href="https://github.com/ivanborakove">
