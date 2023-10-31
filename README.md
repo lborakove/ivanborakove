@@ -12,7 +12,7 @@
 </div><br>
 
 <div style="display: inline_block">
-  <a href="https://academy.hackthebox.com/achievement/badge/2143ca0f-645f-11ee-aac4-bea50ffe6cb4" target="_blank"><img src="https://academy.hackthebox.com/achievement/badge/2143ca0f-645f-11ee-aac4-bea50ffe6cb4" target="_blank"></a>
+  <a href="https://academy.hackthebox.com/achievement/badge/2143ca0f-645f-11ee-aac4-bea50ffe6cb4" target="_blank"><img src="https://academy.hackthebox.com/storage/badges/philomath.png" target="_blank"></a>
 </div>
 
 <div style="display: inline_block">
