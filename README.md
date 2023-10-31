@@ -11,8 +11,6 @@
   <img align="center" alt="ivanborakove-CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
 </div><br>
 
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c2cf0e87-e78c-4cdf-a0d4-de23b5b67447" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-
 <div style="display: inline_block">
   <a href = "mailto:borakove.ivan@gmail.com"><img  src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/ivanborakove" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
