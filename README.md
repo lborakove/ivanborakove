@@ -5,7 +5,7 @@
 <br/>
 
 ![AppSec](https://img.shields.io/badge/AppSec-0d1117?style=flat-square&logo=owasp&logoColor=39ff14&labelColor=0d1117&color=0d1117)
-![Pentest](https://img.shields.io/badge/Penetration_Testing-0d1117?style=flat-square&logo=kalilinux&logoColor=39ff14)
+![Pentest](https://img.shields.io/badge/Penetration_Testing-0d1117?style=flat-square&logo=ubuntu&logoColor=39ff14)
 ![Red Team Mindset](https://img.shields.io/badge/Red_Team_Mindset-0d1117?style=flat-square&logo=hackthebox&logoColor=39ff14)
 ![LLM Security](https://img.shields.io/badge/LLM%2FRAG_Security-0d1117?style=flat-square&logo=probot&logoColor=39ff14)
 ![Profile hits](https://komarev.com/ghpvc/?username=lborakove&label=PACKETS%20RECEIVED&color=0d1117&style=flat-square)
@@ -52,7 +52,7 @@ PORT       STATE  SERVICE          VERSION
 11434/tcp  open   llm-redteam      prompt injection · RAG data leakage · insecure output handling
 31337/tcp  open   elite            reverse engineering · binary exploitation · CTFs
 
-OS details: Linux (Kali) · Windows (PowerShell) · polyglot: Python C# Java JavaScript SQL Bash
+OS details: Linux (Ubuntu) · Windows (PowerShell) · polyglot: Python C# Java JavaScript SQL Bash
 Service Info: Mindset: assume-breach; Output: reproducible PoC + practical fix
 
 Nmap done: 1 IP address (1 host up) scanned — 0 ports filtered, curiosity unbounded.
@@ -127,7 +127,7 @@ LLM features are just new parsers with an English-shaped attack surface. How I t
 
 <p>
 <img src="https://img.shields.io/badge/Burp_Suite-0d1117?style=for-the-badge&logo=burpsuite&logoColor=39ff14"/>
-<img src="https://img.shields.io/badge/Kali_Linux-0d1117?style=for-the-badge&logo=kalilinux&logoColor=39ff14"/>
+<img src="https://img.shields.io/badge/Ubuntu-0d1117?style=for-the-badge&logo=ubuntu&logoColor=39ff14"/>
 <img src="https://img.shields.io/badge/CheckmarxOne-0d1117?style=for-the-badge&logo=checkmarx&logoColor=39ff14"/>
 <img src="https://img.shields.io/badge/Acunetix-0d1117?style=for-the-badge&logo=target&logoColor=39ff14"/>
 <img src="https://img.shields.io/badge/OWASP-0d1117?style=for-the-badge&logo=owasp&logoColor=39ff14"/>
@@ -168,14 +168,13 @@ LLM features are just new parsers with an English-shaped attack surface. How I t
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=lborakove&show_icons=true&hide_border=true&bg_color=0d1117&title_color=39ff14&icon_color=00e5ff&text_color=c9d1d9&rank_icon=github"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lborakove&layout=compact&langs_count=8&hide_border=true&bg_color=0d1117&title_color=39ff14&text_color=c9d1d9"/>
+<img src="https://raw.githubusercontent.com/lborakove/lborakove/output/neofetch.svg" alt="neofetch-style GitHub telemetry" width="100%"/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lborakove/lborakove/output/snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lborakove/lborakove/output/snake.svg"/>
-  <img alt="contribution snake eating the graph" src="https://raw.githubusercontent.com/lborakove/lborakove/output/snake-dark.svg"/>
-</picture>
+<br/><br/>
+
+<img src="https://raw.githubusercontent.com/lborakove/lborakove/output/bughunt.svg" alt="a pixel hacker hunting bugs across my contribution graph" width="100%"/>
+
+<sub>▲ live: a pixel hacker hunts this week's bugs across my real contribution graph. regenerated every 12h by a GitHub Action.</sub>
 
 </div>
 
