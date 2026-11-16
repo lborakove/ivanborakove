@@ -62,51 +62,17 @@ Nmap done: 1 IP address (1 host up) scanned — 0 ports filtered, curiosity unbo
 
 ### `0x02` &nbsp;// kill chain
 
-> A pattern I've demonstrated in real engagements (sanitized, no client data). One weak upload form is rarely "just a medium".
+<img src="./assets/killchain.svg" alt="Animated attack chain: recon, insecure file upload, RCE, pivoting, privilege escalation, domain admin, then report and retest" width="100%"/>
 
-```mermaid
-flowchart LR
-    A["🔍 Recon<br/>surface mapping"] --> B["📤 Insecure<br/>File Upload"]
-    B --> C["💥 Remote Code<br/>Execution"]
-    C --> D["🔀 Internal<br/>Pivoting"]
-    D --> E["⬆️ Privilege<br/>Escalation"]
-    E --> F["👑 Domain<br/>Admin"]
-    F --> G["📝 Report<br/>+ Retest"]
-
-    classDef recon  fill:#0d1117,stroke:#00e5ff,color:#c9d1d9,stroke-width:2px;
-    classDef attack fill:#0d1117,stroke:#39ff14,color:#c9d1d9,stroke-width:2px;
-    classDef crown  fill:#2a0b0b,stroke:#ff4d4d,color:#ffdddd,stroke-width:3px;
-    classDef fix    fill:#0b1a2a,stroke:#ffd84d,color:#fff3c4,stroke-width:2px;
-    class A recon;
-    class B,C,D,E attack;
-    class F crown;
-    class G fix;
-```
+<sub>A pattern I've demonstrated in real engagements (sanitized, no client data). One weak upload form is rarely <i>"just a medium"</i>.</sub>
 
 ---
 
 ### `0x03` &nbsp;// from red to blue
 
-Offense only matters if it ends in a fix. On the AppSec side, I'm the person who decides whether a SAST alert is a real exploit or noise:
+<img src="./assets/pipeline.svg" alt="Animated AppSec triage: scanner findings flow into triage and are routed to fix, compensating control or false positive" width="100%"/>
 
-```mermaid
-flowchart LR
-    commit["git push"] --> scan{{"SAST · SCA · DAST<br/>containers · secrets"}}
-    scan --> triage{"exploitable?"}
-    triage -- "no: false positive" --> tune["tune rules<br/>document rationale"]
-    triage -- "yes" --> poc["PoC + severity<br/>(real-world impact)"]
-    poc --> fix["fix with the dev team"]
-    fix --> gate["security gate ✅"]
-    poc -. "can't patch the code yet" .-> comp["compensating controls<br/>+ controlled exception"]
-    comp --> gate
-
-    classDef n fill:#0d1117,stroke:#39ff14,color:#c9d1d9;
-    classDef d fill:#0d1117,stroke:#00e5ff,color:#c9d1d9;
-    classDef w fill:#1a1405,stroke:#ffd84d,color:#fff3c4;
-    class commit,tune,poc,fix,gate n;
-    class scan,triage d;
-    class comp w;
-```
+<sub>Offense only matters if it ends in a fix. On the AppSec side I decide which scanner alerts are real exploits and which are noise. Real ones get a PoC and a fix, the rest get tuned out with a documented rationale.</sub>
 
 ---
 
