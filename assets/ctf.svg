@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 880 327" width="880" height="327" role="img" aria-label="Flag submission terminal for the hidden profile CTF">
+<title>capture the flag</title>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05070a"/><stop offset="1" stop-color="#0b1117"/></linearGradient>
+  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#fff" opacity=".03"/></pattern>
+  <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#16212b"/></pattern>
+  <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style>
+  text { font-family: 'JetBrains Mono','Fira Code','DejaVu Sans Mono',Menlo,Consolas,'Courier New',monospace; white-space: pre; }
+  .t { font-size: 13px; } .s { font-size: 10.5px; } .xs { font-size: 9px; letter-spacing: .6px; }
+  .h { font-size: 11.5px; font-weight: 700; } .cap { font-size: 10px; letter-spacing: 2.5px; font-weight: 700; }
+  .flow { stroke-dasharray: 3 5; animation: flow 1s linear infinite; }
+  @keyframes flow { to { stroke-dashoffset: -8; } }
+  .mono { font-size: 12.5px; }
+</style>
+<rect width="880" height="327" rx="12" fill="url(#bg)"/>
+<rect width="880" height="327" rx="12" fill="url(#dots)"/>
+<rect x=".5" y=".5" width="879" height="326" rx="12" fill="none" stroke="#1b2a22"/>
+<circle cx="24" cy="20" r="5.5" fill="#ff5f56"/><circle cx="42" cy="20" r="5.5" fill="#ffbd2e"/><circle cx="60" cy="20" r="5.5" fill="#27c93f"/><text x="440.0" y="24" text-anchor="middle" class="xs" fill="#6b7785">nc profile.borakove 31337</text><line x1="0" y1="40" x2="880" y2="40" stroke="#121c16"/>
+<text x="24" y="72" opacity="0" class="mono"><tspan fill="#39ff14">borakove@ubuntu</tspan><tspan fill="#d7dde4">:</tspan><tspan fill="#5c9cff">~/ctf</tspan><tspan fill="#d7dde4">$ </tspan><animate attributeName="opacity" values="0;0;1;1" keyTimes="0.00000;0.01250;0.01562;1.00000" dur="16.00s" repeatCount="indefinite"/></text>
+<clipPath id="tc1"><rect x="195.075" y="57.5" width="0" height="20.5"><animate attributeName="width" values="0;0;137.9;137.9" keyTimes="0.00000;0.03125;0.07552;1.00000" dur="16.00s" repeatCount="indefinite"/></rect></clipPath><text x="197.075" y="72" clip-path="url(#tc1)" class="mono"><tspan fill="#d7dde4">cat challenge.txt</tspan></text>
+<text x="24" y="93" opacity="0" class="mono"><tspan fill="#d7dde4">  &gt;&gt; a flag is hidden somewhere in this repository.</tspan><animate attributeName="opacity" values="0;0;1;1" keyTimes="0.00000;0.09427;0.09740;1.00000" dur="16.00s" repeatCount="indefinite"/></text>
+<text x="24" y="114" opacity="0" class="mono"><tspan fill="#6b7785">  format : </tspan><tspan fill="#ffd84d">BRK{...}</tspan><animate attributeName="opacity" values="0;0;1;1" keyTimes="0.00000;0.10990;0.11302;1.00000" dur="16.00s" repeatCount="indefinite"/></text>
+<text x="24" y="135" opacity="0" class="mono"><tspan fill="#6b7785">  hint 1 : </tspan><tspan fill="#d7dde4">recon is half the battle. what you see is not all that&#x27;s served.</tspan><animate attributeName="opacity" values="0;0;1;1" keyTimes="0.00000;0.12552;0.12865;1.00000" dur="16.00s" repeatCount="indefinite"/></text>
+<text x="24" y="156" opacity="0" class="mono"><tspan fill="#6b7785">  hint 2 : </tspan><tspan fill="#d7dde4">two layers. one of them is older than computers.</tspan><animate attributeName="opacity" values="0;0;1;1" keyTimes="0.00000;0.14115;0.14427;1.00000" dur="16.00s" repeatCount="indefinite"/></text>
+<text x="24" y="189.6" opacity="0" class="mono"><tspan fill="#39ff14">borakove@ubuntu</tspan><tspan fill="#d7dde4">:</tspan><tspan fill="#5c9cff">~/ctf</tspan><tspan fill="#d7dde4">$ </tspan><animate attributeName="opacity" values="0;0;1;1" keyTimes="0.00000;0.19427;0.19740;1.00000" dur="16.00s" repeatCount="indefinite"/></text>
+<clipPath id="tc2"><rect x="195.075" y="175.1" width="0" height="20.5"><animate attributeName="width" values="0;0;107.8;107.8" keyTimes="0.00000;0.20677;0.24370;1.00000" dur="16.00s" repeatCount="indefinite"/></rect></clipPath><text x="197.075" y="189.6" clip-path="url(#tc2)" class="mono"><tspan fill="#d7dde4">./submit_flag</tspan></text>
+<text x="24" y="210.6" opacity="0" class="mono"><tspan fill="#ff2bd6">flag&gt; </tspan><tspan fill="#ffd84d">BRK{</tspan><animate attributeName="opacity" values="0;0;1;1" keyTimes="0.00000;0.26870;0.27183;1.00000" dur="16.00s" repeatCount="indefinite"/></text>
+<text x="99.2" y="210.6" class="mono" fill="#6b7785" opacity="0">6ktdnlug91vvjafr95laj3}<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.00000;0.28120;0.28127;0.28870;0.28877;1.00000" dur="16.00s" repeatCount="indefinite"/></text>
+<text x="99.2" y="210.6" class="mono" fill="#6b7785" opacity="0">l5kuwmv9jkuwd1l2xze66f}<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.00000;0.28870;0.28877;0.29620;0.29627;1.00000" dur="16.00s" repeatCount="indefinite"/></text>
+<text x="99.2" y="210.6" class="mono" fill="#6b7785" opacity="0">z4p3aipdad7qmkcovrk71c}<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.00000;0.29620;0.29627;0.30370;0.30377;1.00000" dur="16.00s" repeatCount="indefinite"/></text>
+<text x="99.2" y="210.6" class="mono" fill="#6b7785" opacity="0">wf6ghqrn1dt3d92shi1ru9}<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.00000;0.30370;0.30377;0.31120;0.31127;1.00000" dur="16.00s" repeatCount="indefinite"/></text>
+<text x="99.2" y="210.6" class="mono" fill="#6b7785" opacity="0">_wekcr0czplrzvnrhem4im}<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.00000;0.31120;0.31127;0.31870;0.31877;1.00000" dur="16.00s" repeatCount="indefinite"/></text>
+<text x="99.2" y="210.6" class="mono" fill="#6b7785" opacity="0">h6spfzsqf71c_y951h_geu}<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.00000;0.31870;0.31877;0.32620;0.32627;1.00000" dur="16.00s" repeatCount="indefinite"/></text>
+<text x="99.2" y="210.6" class="mono" fill="#6b7785" opacity="0">gm3fh1zs7hyjxqtgz0rqi5}<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.00000;0.32620;0.32627;0.33370;0.33377;1.00000" dur="16.00s" repeatCount="indefinite"/></text>
+<text x="99.2" y="210.6" class="mono" fill="#6b7785" opacity="0">ndycw2n79f9obz871urnbe}<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.00000;0.33370;0.33377;0.34120;0.34127;1.00000" dur="16.00s" repeatCount="indefinite"/></text>
+<text x="99.2" y="210.6" class="mono" fill="#6b7785" opacity="0">m5l_0f27x33jzms977tptw}<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0.00000;0.34120;0.34127;0.34870;0.34877;1.00000" dur="16.00s" repeatCount="indefinite"/></text>
+<text x="99.2" y="210.6" class="mono" fill="#ffd84d" opacity="0">bj17ggm1cei8i1tb9o54_b}<animate attributeName="opacity" values="0;0;1;1" keyTimes="0.00000;0.34870;0.34877;1.00000" dur="16.00s" repeatCount="indefinite"/></text>
+<text x="24" y="231.6" opacity="0" class="mono"><tspan fill="#ff3b5c">[!] </tspan><tspan fill="#ff3b5c">access denied — hash mismatch. try harder.</tspan><animate attributeName="opacity" values="0;0;1;1" keyTimes="0.00000;0.38120;0.38433;1.00000" dur="16.00s" repeatCount="indefinite"/></text>
+<text x="24" y="265.2" opacity="0" class="mono"><tspan fill="#6b7785">[ connection closed by foreign host ]</tspan><animate attributeName="opacity" values="0;0;1;1" keyTimes="0.00000;0.44370;0.44683;1.00000" dur="16.00s" repeatCount="indefinite"/></text>
+<g><g filter="url(#glow)"><rect x="784" y="96" width="35" height="7" fill="#ffd84d"/><rect x="777" y="103" width="7" height="7" fill="#ffd84d"/><rect x="819" y="103" width="7" height="7" fill="#ffd84d"/><rect x="777" y="110" width="7" height="7" fill="#ffd84d"/><rect x="819" y="110" width="7" height="7" fill="#ffd84d"/><rect x="777" y="117" width="7" height="7" fill="#ffd84d"/><rect x="819" y="117" width="7" height="7" fill="#ffd84d"/><rect x="770" y="124" width="63" height="7" fill="#ffd84d"/><rect x="770" y="131" width="63" height="7" fill="#ffd84d"/><rect x="770" y="138" width="28" height="7" fill="#ffd84d"/><rect x="805" y="138" width="28" height="7" fill="#ffd84d"/><rect x="770" y="145" width="28" height="7" fill="#ffd84d"/><rect x="805" y="145" width="28" height="7" fill="#ffd84d"/><rect x="770" y="152" width="63" height="7" fill="#ffd84d"/><rect x="770" y="159" width="63" height="7" fill="#ffd84d"/></g><animateTransform attributeName="transform" type="translate" values="0,0;0,0;-5,0;5,0;-4,0;4,0;0,0;0,0" keyTimes="0.00000;0.38120;0.38495;0.38870;0.39245;0.39620;0.39995;1.00000" dur="16.00s" repeatCount="indefinite"/></g><text x="801" y="192" text-anchor="middle" class="xs" fill="#6b7785">LOCKED</text>
+<rect width="880" height="327" rx="12" fill="url(#scan)"/>
+</svg>

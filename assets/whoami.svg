@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 880 344" width="880" height="344" role="img" aria-label="Code editor typing a Python class that describes the operator">
+<title>whoami // operator.py</title>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05070a"/><stop offset="1" stop-color="#0b1117"/></linearGradient>
+  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#fff" opacity=".03"/></pattern>
+  <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#16212b"/></pattern>
+  <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<style>
+  text { font-family: 'JetBrains Mono','Fira Code','DejaVu Sans Mono',Menlo,Consolas,'Courier New',monospace; white-space: pre; }
+  .t { font-size: 13px; } .s { font-size: 10.5px; } .xs { font-size: 9px; letter-spacing: .6px; }
+  .h { font-size: 11.5px; font-weight: 700; } .cap { font-size: 10px; letter-spacing: 2.5px; font-weight: 700; }
+  .flow { stroke-dasharray: 3 5; animation: flow 1s linear infinite; }
+  @keyframes flow { to { stroke-dashoffset: -8; } }
+  .code { font-size: 13.5px; } .blink { animation: bl 1s steps(1) infinite; } @keyframes bl { 50% { fill-opacity: 0; } }
+</style>
+<rect width="880" height="344" rx="12" fill="url(#bg)"/>
+<rect width="880" height="344" rx="12" fill="url(#dots)"/>
+<rect x=".5" y=".5" width="879" height="343" rx="12" fill="none" stroke="#1b2a22"/>
+<circle cx="24" cy="20" r="5.5" fill="#ff5f56"/><circle cx="42" cy="20" r="5.5" fill="#ffbd2e"/><circle cx="60" cy="20" r="5.5" fill="#27c93f"/><text x="440.0" y="24" text-anchor="middle" class="xs" fill="#6b7785">operator.py — ~/ops — vim</text><line x1="0" y1="40" x2="880" y2="40" stroke="#121c16"/>
+<rect x="0" y="57.5" width="880" height="21" fill="#ffffff" opacity=".035"><animate attributeName="y" values="57.5;80.5;103.5;126.5;149.5;172.5;195.5;218.5;241.5;264.5" keyTimes="0;0.06697;0.12574;0.16173;0.24692;0.32938;0.36629;0.45057;0.51845;0.61185" calcMode="discrete" dur="14.63s" repeatCount="indefinite"/></rect><line x1="60" y1="44" x2="60" y2="314" stroke="#2a3540" stroke-opacity=".6"/>
+<text x="48" y="74" text-anchor="end" class="code" fill="#2a3540">1</text>
+<clipPath id="tc1"><rect x="74" y="58.5" width="0" height="21.5"><animate attributeName="width" values="0;0;131.9;131.9" keyTimes="0.00000;0.04100;0.05467;1.00000" dur="14.63s" repeatCount="indefinite"/></rect></clipPath><text x="76" y="74" clip-path="url(#tc1)" class="code"><tspan fill="#ff2bd6">class </tspan><tspan fill="#00e5ff">Operator</tspan><tspan fill="#d7dde4">:</tspan></text>
+<text x="48" y="97" text-anchor="end" class="code" fill="#2a3540">2</text>
+<clipPath id="tc2"><rect x="74" y="81.5" width="0" height="21.5"><animate attributeName="width" values="0;0;424.5;424.5" keyTimes="0.00000;0.06697;0.11344;1.00000" dur="14.63s" repeatCount="indefinite"/></rect></clipPath><text x="76" y="97" clip-path="url(#tc2)" class="code"><tspan fill="#d7dde4">    </tspan><tspan fill="#6b7785">&quot;&quot;&quot;offensive by trade, defensive by outcome.&quot;&quot;&quot;</tspan></text>
+<text x="48" y="120" text-anchor="end" class="code" fill="#2a3540">3</text>
+<clipPath id="tc3"><rect x="74" y="104.5" width="0" height="21.5"><animate attributeName="width" values="0;0;221.3;221.3" keyTimes="0.00000;0.12574;0.14943;1.00000" dur="14.63s" repeatCount="indefinite"/></rect></clipPath><text x="76" y="120" clip-path="url(#tc3)" class="code"><tspan fill="#d7dde4">    </tspan><tspan fill="#d7dde4">handle   </tspan><tspan fill="#6b7785"> = </tspan><tspan fill="#a5e75a">&quot;borakove&quot;</tspan></text>
+<text x="48" y="143" text-anchor="end" class="code" fill="#2a3540">4</text>
+<clipPath id="tc4"><rect x="74" y="127.5" width="0" height="21.5"><animate attributeName="width" values="0;0;660.2;660.2" keyTimes="0.00000;0.16173;0.23462;1.00000" dur="14.63s" repeatCount="indefinite"/></rect></clipPath><text x="76" y="143" clip-path="url(#tc4)" class="code"><tspan fill="#d7dde4">    </tspan><tspan fill="#d7dde4">roles    </tspan><tspan fill="#6b7785"> = </tspan><tspan fill="#d7dde4">[</tspan><tspan fill="#a5e75a">&quot;AppSec Engineer&quot;</tspan><tspan fill="#d7dde4">, </tspan><tspan fill="#a5e75a">&quot;Penetration Tester&quot;</tspan><tspan fill="#d7dde4">, </tspan><tspan fill="#a5e75a">&quot;Security Researcher&quot;</tspan><tspan fill="#d7dde4">]</tspan></text>
+<text x="48" y="166" text-anchor="end" class="code" fill="#2a3540">5</text>
+<clipPath id="tc5"><rect x="74" y="150.5" width="0" height="21.5"><animate attributeName="width" values="0;0;635.8;635.8" keyTimes="0.00000;0.24692;0.31708;1.00000" dur="14.63s" repeatCount="indefinite"/></rect></clipPath><text x="76" y="166" clip-path="url(#tc5)" class="code"><tspan fill="#d7dde4">    </tspan><tspan fill="#d7dde4">path     </tspan><tspan fill="#6b7785"> = </tspan><tspan fill="#a5e75a">&quot;software eng → infrastructure → appsec → offensive security&quot;</tspan></text>
+<text x="48" y="189" text-anchor="end" class="code" fill="#2a3540">6</text>
+<clipPath id="tc6"><rect x="74" y="173.5" width="0" height="21.5"><animate attributeName="width" values="0;0;229.4;229.4" keyTimes="0.00000;0.32938;0.35399;1.00000" dur="14.63s" repeatCount="indefinite"/></rect></clipPath><text x="76" y="189" clip-path="url(#tc6)" class="code"><tspan fill="#d7dde4">    </tspan><tspan fill="#d7dde4">uptime   </tspan><tspan fill="#6b7785"> = </tspan><tspan fill="#a5e75a">&quot;10+ years&quot;</tspan></text>
+<text x="48" y="212" text-anchor="end" class="code" fill="#2a3540">7</text>
+<clipPath id="tc7"><rect x="74" y="196.5" width="0" height="21.5"><animate attributeName="width" values="0;0;652.0;652.0" keyTimes="0.00000;0.36629;0.43827;1.00000" dur="14.63s" repeatCount="indefinite"/></rect></clipPath><text x="76" y="212" clip-path="url(#tc7)" class="code"><tspan fill="#d7dde4">    </tspan><tspan fill="#d7dde4">engaged  </tspan><tspan fill="#6b7785"> = </tspan><tspan fill="#a5e75a">&quot;50+ pentests: web · api · mobile · network · active directory&quot;</tspan></text>
+<text x="48" y="235" text-anchor="end" class="code" fill="#2a3540">8</text>
+<clipPath id="tc8"><rect x="74" y="219.5" width="0" height="21.5"><animate attributeName="width" values="0;0;505.7;505.7" keyTimes="0.00000;0.45057;0.50615;1.00000" dur="14.63s" repeatCount="indefinite"/></rect></clipPath><text x="76" y="235" clip-path="url(#tc8)" class="code"><tspan fill="#d7dde4">    </tspan><tspan fill="#d7dde4">hunting  </tspan><tspan fill="#6b7785"> = </tspan><tspan fill="#d7dde4">[</tspan><tspan fill="#a5e75a">&quot;HackerOne&quot;</tspan><tspan fill="#d7dde4">, </tspan><tspan fill="#a5e75a">&quot;Meli Hacking&quot;</tspan><tspan fill="#d7dde4">, </tspan><tspan fill="#a5e75a">&quot;Hack The Box&quot;</tspan><tspan fill="#d7dde4">]</tspan></text>
+<text x="48" y="258" text-anchor="end" class="code" fill="#2a3540">9</text>
+<clipPath id="tc9"><rect x="74" y="242.5" width="0" height="21.5"><animate attributeName="width" values="0;0;733.3;733.3" keyTimes="0.00000;0.51845;0.59954;1.00000" dur="14.63s" repeatCount="indefinite"/></rect></clipPath><text x="76" y="258" clip-path="url(#tc9)" class="code"><tspan fill="#d7dde4">    </tspan><tspan fill="#d7dde4">currently</tspan><tspan fill="#6b7785"> = </tspan><tspan fill="#a5e75a">&quot;threat modeling LLM/RAG apps &amp; turning scanner noise into real findings&quot;</tspan></text>
+<text x="48" y="281" text-anchor="end" class="code" fill="#2a3540">10</text>
+<clipPath id="tc10"><rect x="74" y="265.5" width="0" height="21.5"><animate attributeName="width" values="0;0;619.5;619.5" keyTimes="0.00000;0.61185;0.68018;1.00000" dur="14.63s" repeatCount="indefinite"/></rect></clipPath><text x="76" y="281" clip-path="url(#tc10)" class="code"><tspan fill="#d7dde4">    </tspan><tspan fill="#d7dde4">motto    </tspan><tspan fill="#6b7785"> = </tspan><tspan fill="#a5e75a">&quot;if it parses input, it has a bug. find it before they do.&quot;</tspan></text>
+<rect x="687.5" y="268.5" width="8.1" height="15.5" fill="#39ff14" class="blink" opacity="0"><animate attributeName="opacity" values="0;0;1;1" keyTimes="0.00000;0.69248;0.69317;1.00000" dur="14.63s" repeatCount="indefinite"/></rect>
+<rect x="0" y="318" width="880" height="26" fill="#0c1610"/><rect x="0" y="318" width="74" height="26" fill="#39ff14"/><text x="37" y="335" text-anchor="middle" class="xs" font-weight="700" fill="#05070a">NORMAL</text><text x="88" y="335" class="xs" fill="#d7dde4">operator.py</text><text x="864" y="335" text-anchor="end" class="xs" fill="#6b7785">python · utf-8 · LF · 10L</text>
+<rect width="880" height="344" rx="12" fill="url(#scan)"/>
+</svg>

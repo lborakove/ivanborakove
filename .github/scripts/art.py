@@ -28,7 +28,7 @@ def frame(W, H, title, label, body, extra_css=""):
   <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
 <style>
-  text {{ font-family: {FONT}; }}
+  text {{ font-family: {FONT}; white-space: pre; }}
   .t {{ font-size: 13px; }} .s {{ font-size: 10.5px; }} .xs {{ font-size: 9px; letter-spacing: .6px; }}
   .h {{ font-size: 11.5px; font-weight: 700; }} .cap {{ font-size: 10px; letter-spacing: 2.5px; font-weight: 700; }}
   .flow {{ stroke-dasharray: 3 5; animation: flow 1s linear infinite; }}

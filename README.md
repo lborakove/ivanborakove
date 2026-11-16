@@ -18,45 +18,13 @@
 
 ### `0x00` &nbsp;// whoami
 
-```python
-class Operator:
-    handle    = "borakove"
-    roles     = ["AppSec Engineer", "Penetration Tester", "Security Researcher"]
-    path      = "software eng → infrastructure → appsec → offensive security"
-    uptime    = "10+ years"
-    engaged   = "50+ pentests: web · api · mobile · network · active directory"
-    hunting   = ["HackerOne", "Meli Hacking", "Hack The Box"]
-    currently = "threat modeling LLM/RAG apps & turning scanner noise into real findings"
-    motto     = "if it parses input, it has a bug. find it before they do."
-```
+<img src="./assets/whoami.svg" alt="Python class describing the operator: AppSec engineer, penetration tester, security researcher" width="100%"/>
 
 ---
 
 ### `0x01` &nbsp;// recon
 
-```console
-$ nmap -sV -p- --script=skills borakove
-Starting Nmap 7.95 ( https://nmap.org )
-Nmap scan report for borakove (10.13.37.1)
-Host is up (0.0001s latency) — always on.
-
-PORT       STATE  SERVICE          VERSION
-21/tcp     open   recon            attack-surface mapping · enumeration · OSINT
-80/tcp     open   web-pentest      OWASP Top 10 · authN/authZ · business logic · file upload → RCE
-88/tcp     open   kerberos         Active Directory · privilege escalation · domain compromise
-443/tcp    open   api-security     REST · GraphQL · gRPC · BOLA/BFLA · auth bypass · rate limiting
-445/tcp    open   lateral-mvmt     internal pivoting · network & firewall assessment
-5555/tcp   open   mobile           mobile application pentest · backend API abuse
-8080/tcp   open   appsec-sdlc      secure code review · SAST · DAST · SCA · secrets · security gates
-9000/tcp   open   devsecops        Jenkins · GitLab CI · GitHub Actions · CheckmarxOne · Acunetix
-11434/tcp  open   llm-redteam      prompt injection · RAG data leakage · insecure output handling
-31337/tcp  open   elite            reverse engineering · binary exploitation · CTFs
-
-OS details: Linux (Ubuntu) · Windows (PowerShell) · polyglot: Python C# Java JavaScript SQL Bash
-Service Info: Mindset: assume-breach; Output: reproducible PoC + practical fix
-
-Nmap done: 1 IP address (1 host up) scanned — 0 ports filtered, curiosity unbounded.
-```
+<img src="./assets/recon.svg" alt="nmap scan listing skills as open ports" width="100%"/>
 
 ---
 
@@ -78,55 +46,15 @@ Nmap done: 1 IP address (1 host up) scanned — 0 ports filtered, curiosity unbo
 
 ### `0x04` &nbsp;// breaking the machines that talk
 
-LLM features are just new parsers with an English-shaped attack surface. How I threat model LLM/RAG apps:
+<img src="./assets/threats.svg" alt="LLM/RAG threat model: prompt injection, data leakage, insecure output handling and broken authorization, each blocked by a control" width="100%"/>
 
-| Threat | How it lands | What actually stops it |
-|:--|:--|:--|
-| 🧨 **Prompt injection** (direct & indirect) | user input, poisoned docs in the RAG index, tool output | treat all retrieved content as data; privilege separation between instructions and context |
-| 🕳️ **Data leakage** | retrieval ignores who is asking | enforce document-level ACLs **at retrieval time**, not in the prompt |
-| 🧪 **Insecure output handling** | model output rendered as HTML, SQL or shell | the model's output is untrusted input: encode, validate, sandbox |
-| 🔑 **Broken authorization** | agents and tools running with service-account power | least-privilege tools, propagate the end-user's identity |
+<sub>LLM features are just new parsers with an English-shaped attack surface. This is how I threat model LLM/RAG apps.</sub>
 
 ---
 
 ### `0x05` &nbsp;// arsenal
 
-<p>
-<img src="https://img.shields.io/badge/Burp_Suite-0d1117?style=for-the-badge&logo=burpsuite&logoColor=39ff14"/>
-<img src="https://img.shields.io/badge/Ubuntu-0d1117?style=for-the-badge&logo=ubuntu&logoColor=39ff14"/>
-<img src="https://img.shields.io/badge/CheckmarxOne-0d1117?style=for-the-badge&logo=checkmarx&logoColor=39ff14"/>
-<img src="https://img.shields.io/badge/Acunetix-0d1117?style=for-the-badge&logo=target&logoColor=39ff14"/>
-<img src="https://img.shields.io/badge/OWASP-0d1117?style=for-the-badge&logo=owasp&logoColor=39ff14"/>
-<img src="https://img.shields.io/badge/GraphQL-0d1117?style=for-the-badge&logo=graphql&logoColor=39ff14"/>
-<img src="https://img.shields.io/badge/Android-0d1117?style=for-the-badge&logo=android&logoColor=39ff14"/>
-</p>
-
-<p>
-<img src="https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=00e5ff"/>
-<img src="https://img.shields.io/badge/C%23-0d1117?style=for-the-badge&logo=dotnet&logoColor=00e5ff"/>
-<img src="https://img.shields.io/badge/Java-0d1117?style=for-the-badge&logo=openjdk&logoColor=00e5ff"/>
-<img src="https://img.shields.io/badge/JavaScript-0d1117?style=for-the-badge&logo=javascript&logoColor=00e5ff"/>
-<img src="https://img.shields.io/badge/Bash-0d1117?style=for-the-badge&logo=gnubash&logoColor=00e5ff"/>
-<img src="https://img.shields.io/badge/PowerShell-0d1117?style=for-the-badge&logo=gnometerminal&logoColor=00e5ff"/>
-<img src="https://img.shields.io/badge/SQL-0d1117?style=for-the-badge"/>
-</p>
-
-<p>
-<img src="https://img.shields.io/badge/Jenkins-0d1117?style=for-the-badge&logo=jenkins&logoColor=ff2bd6"/>
-<img src="https://img.shields.io/badge/GitLab_CI-0d1117?style=for-the-badge&logo=gitlab&logoColor=ff2bd6"/>
-<img src="https://img.shields.io/badge/GitHub_Actions-0d1117?style=for-the-badge&logo=githubactions&logoColor=ff2bd6"/>
-<img src="https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=ff2bd6"/>
-<img src="https://img.shields.io/badge/Kubernetes-0d1117?style=for-the-badge&logo=kubernetes&logoColor=ff2bd6"/>
-<img src="https://img.shields.io/badge/AWS_%2F_Azure-0d1117?style=for-the-badge"/>
-</p>
-
-<p>
-<img src="https://img.shields.io/badge/HackerOne-0d1117?style=for-the-badge&logo=hackerone&logoColor=ffd84d"/>
-<img src="https://img.shields.io/badge/Hack_The_Box-0d1117?style=for-the-badge&logo=hackthebox&logoColor=ffd84d"/>
-</p>
-
-**Playbooks:** `PTES` · `OWASP WSTG / ASVS` · `OWASP API Top 10` · `MITRE ATT&CK` · `STRIDE`<br/>
-**Training:** APIsec University track: API Security Architect, OWASP API Top 10, API Gateway Security, PCI API Security, API Security in DevSecOps
+<img src="./assets/arsenal.svg" alt="Loadout: Burp Suite, Acunetix, Checkmarx, OWASP, Python, C#, Java, JavaScript, Bash, Jenkins, GitLab CI, GitHub Actions, Docker, Kubernetes, HackerOne, Hack The Box" width="100%"/>
 
 ---
 
@@ -148,35 +76,12 @@ LLM features are just new parsers with an English-shaped attack surface. How I t
 
 ### `0x07` &nbsp;// rules of engagement
 
-```diff
-+ authorized scope only. scope is law.
-+ evidence over assumptions: every finding ships with a reproducible PoC
-+ exploitability over CVSS theater
-+ a finding without a fix is just a complaint
-+ responsible disclosure, always
-- no unauthorized testing. no exceptions.
-```
+<img src="./assets/roe.svg" alt="Rules of engagement: authorized scope only, reproducible PoCs, exploitability over CVSS, fixes not complaints, responsible disclosure, no unauthorized testing" width="100%"/>
 
 ---
 
-### `0x08` &nbsp;// capture the flag 🏴
+### `0x08` &nbsp;// capture the flag
 
-There's a flag hidden somewhere in this repository.
-
-```
-format : BRK{...}
-hint 1 : recon is half the battle. what you see is not all that's served.
-hint 2 : two layers. one of them is older than computers.
-```
+<img src="./assets/ctf.svg" alt="CTF: a flag in BRK{...} format is hidden in this repository" width="100%"/>
 
 <sub>Found it? Open an issue titled <code>pwned</code> with <b>only the first 6 characters</b> after <code>BRK{</code>. No spoilers for the next player.</sub>
-
-<div align="center">
-
-<br/>
-
-```
-[ connection closed by foreign host ]
-```
-
-</div>
